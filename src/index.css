@@ -71,6 +71,7 @@ button {
     background-image: var(--background-mobile);
 }
 
+
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -78,6 +79,10 @@ button {
 
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.container--header {
+    margin-top: 13px;
 }
 
 .container--desk {
@@ -186,6 +191,7 @@ button {
     width: 230px;
     height: 44px;
 
+    font-family: Artegra Sans Extended;
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
@@ -218,6 +224,7 @@ button {
 }
 
 .footer__link {
+    font-family: Mariupol;
     font-weight: 400;
     font-size: 12px;
     line-height: 17px;
@@ -345,7 +352,7 @@ button {
     .media__link {
         display: flex;
 
-
+        font-family: Mariupol;
         font-weight: 400;
         font-size: 12px;
         line-height: 17px;
